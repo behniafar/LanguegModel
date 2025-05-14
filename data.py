@@ -343,7 +343,7 @@ class FanmtlNovel(TextDataset):
             chapters_text.append(get_chapter(i))
         return chapters_text
 
-class wikipedia(TextDataset):
+class Wikipedia(TextDataset):
     """
     Wikipedia Dataset for Text Processing
     
